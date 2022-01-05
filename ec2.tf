@@ -8,7 +8,6 @@ resource "aws_instance" "web" {
      availability_zone = "us-east-1c"
 	 key_name = "muneendar54"
 	 subnet_id = "subnet-0991fd811575b0586"
-	user_data = "${file("userdata.sh")}"
 	tags = {
 	name = "hello world"
 	}

@@ -13,3 +13,6 @@ resource "aws_instance" "web" {
 	name = "hello world"
 	}
  }
+
+		
+		
